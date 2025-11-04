@@ -1,8 +1,8 @@
 body {
-    background: #7d6759;
-    color: rgb(45, 45, 45);
+    color: 	#ff7fbf;
     padding: 10px;
     font-family:"Lucida Console", "Courier New", monospace;
+    background-color: 	#f2c4d1;
 }
 
 #all-contents {
@@ -12,18 +12,19 @@ body {
 
 /* navigation menu */
 nav {
-    background: #4f3d36;
+    background: 		#f7b4cd;
     margin: 0 auto;
     display: flex;
     padding: 10px;
     margin-bottom: 20px;
-    border-radius: 200px
+    border-radius: 20px;
+    box-shadow: -6px 7px 0px 0px		#f6dfa9;
 }
 
 h1 {
     display: flex;
     align-items: center;
-    color: 		#d8c3a5;
+    color: 		#d490a3;
     flex: 1;
     margin: 0;
 }
@@ -31,48 +32,88 @@ h1 {
 #nav-ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     display: flex;
 }
 
 .nav-li {
     display: inline-block;
     padding: 0 10px;
-}
+    transition: all .5s ease-in-out;
+    border-radius: 20px;
 
+}
+.nav-li:hover{
+    background-color: 		#d6779a;
+
+    box-shadow: -3px 3px 0px 1px  #f6dfa9;
+    border-radius: 20px;
+    transition: 0.3s;
+
+}
 a {
     text-decoration: none;
-    color: 		#d8c3a5;
+    color: 			#a36c7cc4;
 }
 
 /* main container area beneath menu */
 main {
-    background: rgb(245, 238, 219);
+    background:		#fb9fd0;
     display: flex;
     margin-top: 20px;
-    border-radius: 10px
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 6px #ff7fbf;
 }
 
 .sidebar {
-    margin-right: 25px;
+    margin-top: 25px;
     padding: 10px;
+    
 }
 
 .sidebar-img {
-    width: 200px;
+    transform: scale(12%);
+    transition: all .5s ease-in-out;
 }
+.sidebar-img:hover {
+    align-self: center;
+    transform: scale(100%);
+    
+}
+
 
 .content {
     flex: 1;
     padding: 15px;
+    border-radius: 20px;
+    cursor: help;
+    width: 800px;
+    length: 290px;
+    transition: all .5s ease-in-out;
+   
+
 }
 
+.content:hover {
+    background-color:	#fbd6e478;
+    box-shadow: 0px 0px 0px 6px 		#b172895f;
+    width: 1000px;
+    length: 300px;
+    transform: scale(120%);
+
+
+}
 /* interests section styles */
 #interests {
-    border: 10px silver ridge !important;
+    border: 10px #000000;
     padding: 8px;
     margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 0px 1px #392c27;
+    cursor: pointer;
 }
+
+
 
 h2, h3 {
     margin: 0px;
