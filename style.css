@@ -62,7 +62,7 @@ main {
     display: flex;
     margin-top: 20px;
     border-radius: 10px;
-    box-shadow: 0px 0px 0px 6px #ff7fbf;
+    box-shadow: -16px 17px 0px 0px #f6dfa9;
 }
 
 .sidebar {
@@ -72,12 +72,12 @@ main {
 }
 
 .sidebar-img {
-    transform: scale(12%);
+    align-self: center;
     transition: all .5s ease-in-out;
 }
 .sidebar-img:hover {
     align-self: center;
-    transform: scale(100%);
+    transform: scale(110%);
     
 }
 
