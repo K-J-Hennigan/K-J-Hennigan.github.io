@@ -1,7 +1,7 @@
 body {
     color: 	#ff7fbf;
     padding: 10px;
-    font-family:"Lucida Console", "Courier New", monospace;
+    font-family:"KindFont";
     background-color: 	#f2c4d1;
 }
 
@@ -124,33 +124,42 @@ h2, h3 {
 .contents h1 {
   color:#d490a3;
   padding-block: 20px;
-  padding-left: 10px;
-  font-family:"Lucida Console", "Courier New", monospace;
+  padding-left: 340px;
+  font-family:"KindFont";
 
 
 }
 
 
-#portfolio {
+#portfoliol {
   list-style-type: none;
-  padding-left: 120px;
+  padding-left: 200px;
   text-decoration: none;
   color: #8b38d4;
 }
 
-#portfolio li {
-  background:#da84c8 ;
+#portfoliol li {
+  a{background:#da84c8 ;
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 10px;
   box-shadow: -10px 5px 0px 1px #c258a6;
-   a {text-decoration: none;
-  color: #c258a6;}
-   }
-
-#portfolio li:hover {
-  background: #f7e152;
- a { text-decoration: none;
-  color: #da7420;
+  color: #c258a6;
+  transition: all .5s ease-in-out;
+  }
 }
+
+#portfoliol li:hover {
+  a{background: #f7e152;
+  text-decoration: none;
+  color: #da7420;
+  }
+  
+}
+@font-face {
+    font-family: "KindFont";
+    src: url(fonts/font/Super\ Kindly.ttf) format(truetype);
+    font-weight: 30;
+    font-style: normal;
+    font-display: swap;
 }
