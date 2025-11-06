@@ -77,7 +77,9 @@ main {
 }
 .sidebar-img:hover {
     align-self: center;
-    transform: scale(110%);
+    box-shadow: 0px 3px 10px 1px #f5f5f5;
+    background: #ffff;
+    transform: scale(120%);
     
 }
 
@@ -95,8 +97,8 @@ main {
 }
 
 .content:hover {
-    background-color:	#fbd6e478;
-    box-shadow: 0px 0px 0px 6px 		#b172895f;
+    background-color:	#fbd6e4;
+    box-shadow: 0px 0px 6px 6px 		#f8bcf8;
     width: 1000px;
     length: 300px;
     transform: scale(120%);
@@ -122,10 +124,11 @@ h2, h3 {
 
 /* Portfolio styles */
 .contents h1 {
-  color:#d490a3;
+  color:#f189a7;
   padding-block: 20px;
-  padding-left: 340px;
+  padding-left: 210px;
   font-family:"KindFont";
+  font-size: 90px;
 
 
 }
@@ -133,27 +136,34 @@ h2, h3 {
 
 #portfoliol {
   list-style-type: none;
-  padding-left: 200px;
+  padding-left: 150px;
+  padding-bottom: 40px;
   text-decoration: none;
   color: #8b38d4;
 }
 
 #portfoliol li {
-  a{background:#da84c8 ;
-  padding: 10px;
+  background:#da84c8 ;
+  padding: 50px;
   border-radius: 10px;
   margin-bottom: 10px;
   box-shadow: -10px 5px 0px 1px #c258a6;
-  color: #c258a6;
   transition: all .5s ease-in-out;
+  a{color: #c258a6;
   }
+
 }
 
 #portfoliol li:hover {
-  a{background: #f7e152;
-  text-decoration: none;
-  color: #da7420;
-  }
+    background: #f7e152;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 20px 10px #c28c3b;
+    transform: scale(120%);
+    a{color: #da7420;
+    }
+
   
 }
 @font-face {
@@ -162,4 +172,9 @@ h2, h3 {
     font-weight: 30;
     font-style: normal;
     font-display: swap;
+}
+.video-embed{
+margin-top: 0px;
+padding-block:100px;
+padding-left:750px;
 }
